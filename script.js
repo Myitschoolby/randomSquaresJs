@@ -46,7 +46,7 @@ let randomSquare = function(count) {
     };
 
     //setInterval(_ => {create(random(5, 100))}, 5000);
-    create(count);
+    create(random(5, 100));
 };
 
 randomSquare(20);
